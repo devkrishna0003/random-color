@@ -1,0 +1,28 @@
+
+.button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+.colorName{
+  text-transform: uppercase;
+}
+.colorCode{
+  position: absolute;
+  bottom: 40px ;
+}
